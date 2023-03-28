@@ -17,9 +17,10 @@ namespace ADO.Controllers
             Configuration = configuration;
         }
 
-
         public IActionResult Index()
         {
+
+
             List<Inventory> inventoryList = new List<Inventory>();
 
             string connectionString = Configuration["ConnectionStrings:DefaultConnection"];
