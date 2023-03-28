@@ -15,7 +15,6 @@ namespace ADO.Controllers
         public HomeController(IConfiguration configuration)
         {
             Configuration = configuration;
-
         }
 
         public IActionResult Index()
